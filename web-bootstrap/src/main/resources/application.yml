@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: test
+swagger:
+  production: false
+  enable: true
+  #密码认证
+  basic:
+    enable: false
+    username: root
+    password: 123456
+
